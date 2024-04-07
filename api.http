@@ -2,7 +2,7 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "Aula 2 NLW Unite NodeJS",
-    "details": "Hoje sem redbull.",
+    "title": "Aula 3 NLW Unite NodeJS",
+    "details": "Amanhã com redbull.",
     "maximumAttendees": 1
 }
