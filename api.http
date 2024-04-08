@@ -2,7 +2,17 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "Aula 3 NLW Unite NodeJS",
-    "details": "Amanhã com redbull.",
+    "title": "Daily Qual a Boa",
+    "details": "13hrs",
     "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/1f3d1e69-b59e-4aab-a3d4-3dbfe533ad0e/attendees
+Content-Type: application/json
+
+{
+    "name": "Breno Dourado",
+    "email": "brenin@qab.com"
 }
